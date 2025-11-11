@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tododis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Tododis ✅</h1>
+
+    <form id="todo-form" autocomplete="off">
+      <input id="task-input" type="text" placeholder="Add a new task…" aria-label="Task" />
+      <button id="add-btn" type="submit">Add</button>
+    </form>
+
+    <ul id="todo-list" aria-live="polite"></ul>
+
+    <div class="footer">
+      <span id="count">0 items</span>
+      <button id="clear-completed" type="button">Clear completed</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
